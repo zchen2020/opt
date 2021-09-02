@@ -12,7 +12,7 @@
 #' @examples p=c(0.1,0.2,0.3)
 #' opt(p,rep=1e3)
 #'
-opt<-function(p,lower.alpha=1e-2,upper.alpha=1e8, rep=1e4){
+opt<-function(p,lower.alpha=1e-2,upper.alpha=1e8, rep=1e3){
   stat.opt<-opt_test(p=p,l.alpha=lower.alpha,u.alpha=upper.alpha)
   stat<-stat.opt[1]
   alpha<-stat.opt[2]
