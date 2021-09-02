@@ -1,0 +1,14 @@
+Package: opt
+Type: Package
+Title: Optimal P-value combination Tests
+Version: 0.1.0
+Author: Zhongxue Chen
+Maintainer: The package maintainer <zhongxuechen@gmail.com>
+Description: optimal test to combine independent p-values using gamma 
+    ditributions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Imports:
+    stats
