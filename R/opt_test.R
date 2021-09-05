@@ -24,6 +24,9 @@ opt_test<-function(p,l.alpha=1e-2,u.alpha=1e8){
                   1,1e-1),
                 6,2,byrow = TRUE)
   # log-likelihood with two parameters (alpha and c)
+
+  if( any(p < 0 | p > 1) ) stop('p not between 0 and 1')
+
   l2<-function(theta) {-theta[1]*length(p)*log(1-theta[2])-theta[2]*sum(qgamma(1-p,theta[1]))}
   # try different starting values:
   obj.const<-rep(0,6)
