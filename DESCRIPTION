@@ -6,6 +6,7 @@ Author: Zhongxue Chen
 Maintainer: The package maintainer <zhongxuechen@gmail.com>
 Description: optimal test to combine independent p-values using gamma 
     ditributions.
+Reference: Chen, Z., 2022. Optimal Tests for Combining p-Values. Applied Sciences, 12(1), p.322.
 URL: https://github.com/zchen2020/opt
 License: MIT + file LICENSE
 Encoding: UTF-8
